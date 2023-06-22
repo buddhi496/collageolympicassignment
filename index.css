@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+.head{
+    background-image: url(images/newbg.jpg);
+}
+
+/* section 1 */
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 18px 141px;
+}
+
+img{
+    height: 50px;
+    width: 100px;
+}
+
+.signup{
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    font-size: 20px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 203px;
+    padding-bottom: 478px;
+}
+
+.desc p{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.lineab{
+    width: 402px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+.line {
+    display: flex;
+    width: 74px;
+    height: 0px;
+    background: transparent;
+    border: 1px solid #f23064;
+    align-items: center;
+  }
+
+
+.desc h1{
+    font-size: 120px;
+}
+
+.desc p, h1{
+    color: white;
+}
+
+span{
+    color: #F23064;
+}
+
+/*Section 2*/
+.lines{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.now{
+    padding-bottom: 46px;
+}
+
+.event{
+    height: 552px;
+    width: 514px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.lb{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    align-items: center;
+    justify-content: center;
+}
+
+.live{
+    padding: 50px 0;
+}
+
+.live h1{
+    font-size: 80px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: -8px;
+}
+
+.box{
+    height: 332px;
+    width: 514px;
+    background-image: url("images/bbb.jpg");
+    background-size: cover;
+}
+
+.event h2, p{
+    padding: 0 10px;
+}
+
+.event h2{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.event p{
+    font-size: 30px;
+    opacity: 60%;
+}
+
+.box .btn{
+    background-color: #F23064;
+    width: 93px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+/*Section 3*/
+.date{
+    display: flex;
+    gap: 99px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.match{
+    height: 233px;
+    width: 206px;
+    text-align: center;
+}
+
+.match .week{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.match .date{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.match .player{
+    font-size: 20px;
+}
+
+.match .game{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.match .time{
+    font-size: 20px;
+}
+
+.button{
+    text-align: center;
+}
+
+.but{
+    width: 213px;
+    height: 58px;
+    background-color: #F23064;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.back{
+    background-color: white;
+}
+
+/* Section 4 */
+
+.news{
+    height: 650px;
+    width: 513px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newsbox{
+    background-image: url("images/football.jpg");
+}
+
+.news h2{
+    padding: 0 10px;
+}
+
+.news .butt{
+    height: 58px;
+    width: 213px;
+    background-color: #F23064;
+    color: white;
+    border: none;
+    margin: 0 10px;
+}
+
+.news p{
+    font-size: 30px;
+    opacity: 70%;
+}
+
+.news h2{
+    font-size: 30px;
+}
+
+/* section 5 */
+.feedback{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 151px;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+.text{
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.in{
+    height: 45px;
+    max-width: 715px;
+    padding-left: 10px;
+}
+
+.put{
+    height: 196px;
+    max-width: 715px;
+    padding-left: 10px;
+}
+
+.b{
+    height: 34px;
+    width: 103px;
+    margin-left: 613px;
+}
+
+/* Section Last */
+.footer{
+    background-color: #1B1B1D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+
+.footer img{
+    height: 151px;
+    width: 302px;
+}
+
+.social, .downloads{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24.9px;
+    justify-content: center;
+}
+
+.icons i{
+    font-size: 40px;
+}

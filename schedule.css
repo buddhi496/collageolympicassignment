@@ -1,0 +1,28 @@
+/*section 3*/
+.table{
+    margin: 50px 0;
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 1461px;
+    margin: auto;
+  }
+tr:nth-child(1){
+    background-color: #E9E9E9;
+}
+
+td{
+    border-bottom: 1px solid #707070;
+}
+th, td{
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+    text-transform: capitalize;
+}
+tr td img{
+    height: 151.64px;
+    width: 208px;
+}

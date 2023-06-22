@@ -1,0 +1,44 @@
+.last{
+    margin-top: 50px;
+}
+
+.store{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.high{
+    width: 397px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.image{
+    width: 397px;
+    height: 265.01px;
+    background-image: url("images/badminton.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.high h5{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.high p{
+    font-size: 30px;
+    padding-left: 10px;
+    opacity: 50%;
+}
+
+.image i{
+    font-size: 70px;
+}
