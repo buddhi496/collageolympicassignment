@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 176.1px;
+}
+
+img{
+    height: 900px;
+    width: 655.9px;
+    margin: 16.5px 0;
+    padding-left: 16.5px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form h1, h2, h3{
+    margin: 0;
+}
+
+.form h1{
+    font-size: 80px;
+}
+
+.form h2{
+    font-size: 60px;
+}
+.form h3{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+form{
+    margin: 23px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 30px;
+}
+
+input, .facebook{
+    width: 936px;
+    height: 59px;
+}
+
+form p{
+    text-align: center;
+}
+
+input[type = submit]{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 23px;
+    font-size: 30px;
+    gap: 21.6px;
+}
+
+.color{
+    background-color: #1877F2;
+    border: none;
+}
+
+.color i{
+    color: white;
+}
+
+.have{
+    text-align: end;
+}
